@@ -1,0 +1,153 @@
+can the spring rest endpoint handle 20 concurrent transactions?
+2019-05-19T11:15:19.286Z ending request 0
+2019-05-19T11:15:19.290Z ending request 1
+2019-05-19T11:15:19.291Z ending request 2
+2019-05-19T11:15:19.291Z ending request 3
+2019-05-19T11:15:19.291Z ending request 4
+2019-05-19T11:15:19.291Z ending request 5
+2019-05-19T11:15:19.291Z ending request 6
+2019-05-19T11:15:19.291Z ending request 7
+2019-05-19T11:15:19.292Z ending request 8
+2019-05-19T11:15:19.292Z ending request 9
+2019-05-19T11:15:19.292Z ending request 10
+2019-05-19T11:15:19.292Z ending request 11
+2019-05-19T11:15:19.292Z ending request 12
+2019-05-19T11:15:19.292Z ending request 13
+2019-05-19T11:15:19.292Z ending request 14
+2019-05-19T11:15:19.292Z ending request 15
+2019-05-19T11:15:19.292Z ending request 16
+2019-05-19T11:15:19.292Z ending request 17
+2019-05-19T11:15:19.293Z ending request 18
+2019-05-19T11:15:19.293Z ending request 19
+{ id: 44,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 54,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 47,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 51,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 46,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 43,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 49,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 42,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 41,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 57,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 50,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 53,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 58,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 59,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 55,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 60,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 52,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 48,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 45,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+{ id: 56,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+
+
+can the spring rest endpoint handle 50 concurrent transactions? (no it can't)
+can our spring rest endpoint handle 50 concurrent transactions?
+2019-05-19T11:16:44.506Z ending request 0
+2019-05-19T11:16:44.511Z ending request 1
+2019-05-19T11:16:44.511Z ending request 2
+2019-05-19T11:16:44.511Z ending request 3
+2019-05-19T11:16:44.512Z ending request 4
+2019-05-19T11:16:44.512Z ending request 5
+2019-05-19T11:16:44.512Z ending request 6
+2019-05-19T11:16:44.512Z ending request 7
+2019-05-19T11:16:44.512Z ending request 8
+2019-05-19T11:16:44.512Z ending request 9
+2019-05-19T11:16:44.512Z ending request 10
+2019-05-19T11:16:44.513Z ending request 11
+2019-05-19T11:16:44.513Z ending request 12
+2019-05-19T11:16:44.513Z ending request 13
+2019-05-19T11:16:44.513Z ending request 14
+2019-05-19T11:16:44.513Z ending request 15
+2019-05-19T11:16:44.513Z ending request 16
+2019-05-19T11:16:44.513Z ending request 17
+2019-05-19T11:16:44.513Z ending request 18
+2019-05-19T11:16:44.513Z ending request 19
+2019-05-19T11:16:44.514Z ending request 20
+2019-05-19T11:16:44.514Z ending request 21
+2019-05-19T11:16:44.514Z ending request 22
+2019-05-19T11:16:44.514Z ending request 23
+2019-05-19T11:16:44.514Z ending request 24
+2019-05-19T11:16:44.514Z ending request 25
+2019-05-19T11:16:44.514Z ending request 26
+2019-05-19T11:16:44.514Z ending request 27
+2019-05-19T11:16:44.514Z ending request 28
+2019-05-19T11:16:44.514Z ending request 29
+2019-05-19T11:16:44.515Z ending request 30
+2019-05-19T11:16:44.515Z ending request 31
+2019-05-19T11:16:44.515Z ending request 32
+2019-05-19T11:16:44.515Z ending request 33
+2019-05-19T11:16:44.515Z ending request 34
+2019-05-19T11:16:44.515Z ending request 35
+2019-05-19T11:16:44.515Z ending request 36
+2019-05-19T11:16:44.515Z ending request 37
+2019-05-19T11:16:44.515Z ending request 38
+2019-05-19T11:16:44.515Z ending request 39
+2019-05-19T11:16:44.516Z ending request 40
+2019-05-19T11:16:44.516Z ending request 41
+2019-05-19T11:16:44.516Z ending request 42
+2019-05-19T11:16:44.516Z ending request 43
+2019-05-19T11:16:44.516Z ending request 44
+2019-05-19T11:16:44.516Z ending request 45
+2019-05-19T11:16:44.516Z ending request 46
+2019-05-19T11:16:44.516Z ending request 47
+2019-05-19T11:16:44.516Z ending request 48
+2019-05-19T11:16:44.516Z ending request 49
+{ id: 71,
+  externalInfo: 'blocking content',
+  content: 'Welcome, unknown user!' }
+undefined:1
+<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Handler processing failed; nested exception is java.lang.OutOfMemoryError: GC overhead limit exceeded</p><p><b>Description</b> The s
+
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at IncomingMessage.res.on (/home/koen/Development/git/backend/reactive-demo/src/test/node/stressTest.js:17:23)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+Spring terminal:
+Exception in thread "http-nio-8080-exec-50" Exception in thread "http-nio-8080-exec-53" Exception in thread "http-nio-8080-exec-49" Exception in thread "http-nio-8080-exec-54" Exception in thread "http-nio-8080-exec-45" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "http-nio-8080-exec-59"

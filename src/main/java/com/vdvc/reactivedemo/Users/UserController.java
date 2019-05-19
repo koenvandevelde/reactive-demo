@@ -13,6 +13,9 @@ public class UserController {
 
     @RequestMapping("/user")
     public User user(@RequestParam(value="name", defaultValue="unknown user") String name) {
+        Thread currThread = Thread.currentThread();
+        System.out.println("current thread = " + currThread.getId());
+      
         return new User(counter.incrementAndGet(),
                             String.format(template, name));
     }

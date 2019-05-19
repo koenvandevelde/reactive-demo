@@ -5,3 +5,6 @@ Added dependencies:
 -lombok
 -reactive web (webflux and netty)
 -web (Servlet web application with Spring MVC and Tomcat)
+
+Resources:
+https://github.com/spring-guides/gs-rest-service
